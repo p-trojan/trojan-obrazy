@@ -1,4 +1,4 @@
-# trojan-obrazy (original TrojanobrazyRev8)
+# trojan-obrazy
 
 Simple art gallery
 
