@@ -1,0 +1,35 @@
+<mat-drawer-container>
+  <mat-drawer #sidenav mode="over">
+    1. background img
+    <br />
+    2. foreground icon
+    <br />
+    3. few buttons for menu
+    <br />
+    <mat-list>
+      <mat-list-item>
+        <a mat-raised-button routerLink="/biography">
+          biografia
+        </a>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <a mat-raised-button routerLink="/creations">
+          twórczość
+        </a>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <button mat-raised-button>
+          kontakt
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-toolbar [sidenav]="sidenav"></app-toolbar>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </mat-drawer-content>
+</mat-drawer-container>
