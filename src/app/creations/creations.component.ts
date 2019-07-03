@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Creation } from '../_models/Creation';
+import { Collection } from '../_models/Collection';
 import { CreationService } from '../_services/creation.service';
+import { log } from 'util';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-creations',
@@ -8,20 +11,29 @@ import { CreationService } from '../_services/creation.service';
   styleUrls: ['./creations.component.css']
 })
 export class CreationsComponent implements OnInit {
-  title1 = 'app 1';
-  title2 = 'app 2';
-
+  isMobile: boolean = false;
+  collections: Collection[];
   creations: Creation[];
 
-  constructor(private creationService: CreationService) { }
+  constructor(private creationService: CreationService,
+              breakPointObserver: BreakpointObserver) {
+    breakPointObserver
+      .observe([Breakpoints.Handset])
+      .subscribe(res => this.isMobile = res.matches);
 
-  ngOnInit() {
-    console.log('from component: ', this.creationService.getCreations())
   }
 
-  private getCreations() {
-    this.creationService.getCreations()
-      .subscribe(creations => this.creations = creations)
+  ngOnInit() {
+    this.getCollection();
+    log(`getCollection() from component: ${this.collections}`);
+
+  }
+
+  getCollection(): void {
+    this.creationService.getCollectionArray()
+      .subscribe(data => {
+        this.collections = data
+      });
   }
 
 }

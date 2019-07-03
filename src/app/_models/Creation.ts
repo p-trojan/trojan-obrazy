@@ -1,9 +1,8 @@
-export class Creation {
-  constructor(public id: number,
-              public image: string,
-              public title: string,
-              public date: any,
-              public description: string,
-              public dimensions: string) {
-  }
+export interface Creation {
+  id: number,
+  image: string,
+  title: string,
+  date: any,
+  description: string,
+  dimensions: string
 }
