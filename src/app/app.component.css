@@ -1,3 +1,88 @@
-mat-grid-tile {
-  background: lightblue;
+html,
+body,
+mat-sidenav-container {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: hidden;
+  margin: 0;
+}
+/*
+a.active {
+  background-color: gray;
+}
+*/
+mat-sidenav {
+  width: 240px;
+}
+
+mat-list {
+  margin: 0 auto;
+}
+
+mat-list-item a {
+  width: 240px;
+}
+
+.toolbar {
+  overflow:hidden;
+  top: 0;
+}
+
+.white-text {
+  color: white;
+}
+
+.name {
+  margin: 10px;
+  padding-top: 10px;
+  float: left;
+}
+
+.email {
+  margin: 0 10px;
+  float: left;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+.business-card-view {
+  height: 300px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.business-card-view > button {
+  float: right;
+}
+
+.business-card-background {
+  overflow: hidden;
+  position: absolute;
+  top: -270px;
+  right: 0;
+  bottom: 0;
+  left: -155px;
+  z-index: -1;
+}
+
+.business-card-background > img {
+  width: 500px;
+}
+
+.business-card-content {
+  padding: 120px 24px 0;
+}
+
+.business-card-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+
 }

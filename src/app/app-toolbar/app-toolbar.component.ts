@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { MatSnackBar } from '@angular/material';
 
 @Component({
@@ -9,13 +9,20 @@ import { MatSnackBar } from '@angular/material';
 export class AppToolbarComponent implements OnInit {
   @Input() public sidenav;
 
-  constructor(public snackBar: MatSnackBar) { }
+  constructor(public snackBar: MatSnackBar) {}
 
-  ngOnInit() {
+  public ngOnInit() {
+  }
+  public contactSnackBar() {
+    this.snackBar.open('This function is not available yet!', '=(', {
+      duration: 2000,
+    });
   }
 
-  openSnackBar() {
-    this.snackBar.open("Not implemented yet");
+  public shareSnackBar() {
+    this.snackBar.open('Sharing is not available yet!', '=(', {
+      duration: 2000,
+    });
   }
 
 }

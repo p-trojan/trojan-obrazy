@@ -11,6 +11,11 @@ import { BiographyComponent } from './biography/biography.component';
 import { NoContentComponent } from './no-content/no-content.component';
 import { CreationsComponent } from './creations/creations.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { CreationCardComponent } from './creations/creation-card.component';
+import { CreationDialogComponent } from './creations/creation-dialog.component';
+import { BiographyCardComponent } from './biography/biography-card.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
@@ -18,15 +23,21 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     HttpClientModule,
     CustomMaterialModule,
+    FlexLayoutModule,
     AppRoutingModule
   ],
   declarations: [
     AppComponent,
     AppToolbarComponent,
     BiographyComponent,
+    BiographyCardComponent,
     NoContentComponent,
-    CreationsComponent
+    CreationsComponent,
+    CreationCardComponent,
+    CreationDialogComponent,
+    HomeComponent
   ],
+  entryComponents: [ CreationDialogComponent ],
   providers: [],
   bootstrap: [AppComponent]
 })

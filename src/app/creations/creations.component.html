@@ -1,16 +1,11 @@
-<mat-tab-group>
-  <mat-tab *ngFor="let collection of collections" label="{{collection.labelTitle}}">
-    <div class="collection-group">
-      <mat-grid-list [cols]="colsNumber" [gutterSize]="40">
-        <mat-grid-tile *ngFor="let creation of collection.content">
-          <mat-card class="creation-card">
-            <img mat-card-image alt="{{creation.title}}" src="{{creation.image}}"/>
-            <mat-card-title>{{creation.title}}</mat-card-title>
-            <mat-card-subtitle>{{creation.description}}, {{creation.dimensions}}
-              , {{creation.date | date: 'yyyy'}}</mat-card-subtitle>
-          </mat-card>
+<div class="container">
+  <mat-tab-group>
+    <mat-tab *ngFor="let collection of collections; let i=index;" label="{{collection.labelTitle}}">
+      <mat-grid-list [cols]="colsNumber" gutterSize="8px" rowHeight="1:1">
+        <mat-grid-tile *ngFor="let content of collection.content; let id = index;" colspan="1" rowspan="1">
+          <creation-card [selectedCreation]="content"></creation-card>
         </mat-grid-tile>
       </mat-grid-list>
-    </div>
-  </mat-tab>
-</mat-tab-group>
+    </mat-tab>
+  </mat-tab-group>
+</div>

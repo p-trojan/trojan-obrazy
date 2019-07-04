@@ -1,0 +1,12 @@
+<div (mouseover)="condition === true" (mouseleave)="condition === false" class="inner-container" (click)="openDialog()">
+  <img [src]="selectedCreation.image">
+  <div *ngIf="selectedCreation">
+    <mat-card [hidden]="!condition" class="image-overlay">
+      <mat-card-header>
+        <mat-card-title>{{selectedCreation.title}}</mat-card-title>
+        <mat-card-subtitle>{{selectedCreation.date || "Rok nieznany"}}</mat-card-subtitle>
+        <span class="fill-space"></span>
+      </mat-card-header>
+    </mat-card>
+  </div>
+</div>

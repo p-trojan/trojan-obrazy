@@ -1,35 +1,52 @@
-<mat-drawer-container>
-  <mat-drawer #sidenav mode="over">
-    1. background img
-    <br />
-    2. foreground icon
-    <br />
-    3. few buttons for menu
-    <br />
+<mat-sidenav-container>
+  <mat-sidenav #sidenav fixedInViewport="true" mode="over">
     <mat-list>
-      <mat-list-item>
-        <a mat-raised-button routerLink="/biography">
-          biografia
-        </a>
-      </mat-list-item>
-      <mat-divider></mat-divider>
-      <mat-list-item>
-        <a mat-raised-button routerLink="/creations">
-          twórczość
-        </a>
-      </mat-list-item>
-      <mat-divider></mat-divider>
-      <mat-list-item>
-        <button mat-raised-button>
-          kontakt
+      <div class="business-card-view">
+        <div class="business-card-background">
+          <img src="assets/images/malarstwo97/Painting1.jpg"/>
+        </div>
+        <button mat-icon-button (click)="sidenav.close()">
+          <mat-icon>close</mat-icon>
         </button>
+        <div class="business-card-content">
+          <img class="business-card-photo" src="assets/images/autor/autor-foto.jpg">
+          <a href="#!name"><span class="white-text name">Jan Trojan</span></a>
+          <a href="#!email"><span class="white-text email">trojanjan@wp.pl</span></a>
+        </div>
+      </div>
+      <mat-list-item>
+        <a mat-button
+           [routerLink]=" ['./home'] "
+           routerLinkActive="active"
+           [routerLinkActiveOptions]="{exact: true}">
+          <span>Home</span>
+          <mat-icon>home</mat-icon>
+        </a>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <a mat-button
+           [routerLink]=" ['./biography'] "
+           routerLinkActive="active"
+           [routerLinkActiveOptions]="{exact: true}">
+          <span>Biografia</span>
+          <mat-icon>person</mat-icon>
+        </a>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <a mat-button
+           [routerLink]=" ['./creations'] "
+           routerLinkActive="active"
+           [routerLinkActiveOptions]="{exact: true}">
+          <span>Twórczość</span>
+          <mat-icon>brush</mat-icon>
+        </a>
       </mat-list-item>
     </mat-list>
-  </mat-drawer>
-  <mat-drawer-content>
-    <app-toolbar [sidenav]="sidenav"></app-toolbar>
-    <main>
-      <router-outlet></router-outlet>
-    </main>
-  </mat-drawer-content>
-</mat-drawer-container>
+  </mat-sidenav>
+  <app-toolbar [sidenav]="sidenav"></app-toolbar>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</mat-sidenav-container>

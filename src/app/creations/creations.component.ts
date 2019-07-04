@@ -14,6 +14,8 @@ export class CreationsComponent implements OnInit {
   collections: Collection[];
   creations: Creation[];
 
+  // constructor(private creationService: CreationService){}
+
   constructor(private creationService: CreationService,
               breakPointObserver: BreakpointObserver) {
     breakPointObserver
@@ -23,7 +25,7 @@ export class CreationsComponent implements OnInit {
         Breakpoints.Medium,
         Breakpoints.Large
       ])
-      .subscribe((res: BreakpointState ) => {
+      .subscribe((res: BreakpointState) => {
         switch (res.matches) {
           case breakPointObserver.isMatched(Breakpoints.XSmall):
             this.colsNumber = 1;
@@ -48,7 +50,8 @@ export class CreationsComponent implements OnInit {
   getCollection(): void {
     this.creationService.getCollectionArray()
       .subscribe(data => {
-        this.collections = data
+        this.collections = data;
       });
   }
 }
+

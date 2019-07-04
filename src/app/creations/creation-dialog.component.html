@@ -1,0 +1,9 @@
+<div class="fill-empty" mat-dialog-content>
+  <button mat-fab (click)="prevItem()"><mat-icon>chevron_left</mat-icon></button>
+  <img [src]="data.item['image']" />
+  <button mat-fab (click)="nextItem()"><mat-icon>chevron_right</mat-icon></button>
+<div>
+  <p>{{data.item['title']}}</p>
+  <p>{{data.item.image}}</p>
+</div>
+</div>

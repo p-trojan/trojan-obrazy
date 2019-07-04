@@ -1,0 +1,28 @@
+mat-card {
+    padding: 0;
+}
+
+mat-card-title {
+    padding: 6px 0;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.60);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.2s ease;
+}
+
+.inner-container:hover .image-overlay {
+    height: 25%;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}

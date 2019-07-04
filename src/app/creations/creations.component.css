@@ -1,7 +1,8 @@
-.creation-card {
-
+.fill-space {
+  flex: 1 1 auto;
 }
 
-.collection-group {
-  padding-top: 32px;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }

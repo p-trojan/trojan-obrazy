@@ -1,23 +1,14 @@
-<mat-toolbar color="primary">
-  <div>
-    <button mat-icon-button
-            type="button"
-            (click)="sidenav.toggle()"
-            matTooltip="Menu">
-      <mat-icon>menu</mat-icon>
-    </button>
-  </div>
+<mat-toolbar color="primary" class="toolbar">
+  <button mat-icon-button matTooltip="Menu" (click)="sidenav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
   <span class="fill-space"></span>
-  <div>
-    Jan Trojan
-  </div>
+  <a [routerLink]="['/home']"><span class="white-text name">Jan Trojan</span></a>
   <span class="fill-space"></span>
-  <div>
-    <button mat-icon-button type="button" (click)="openSnackBar()" matTooltip="Kontakt">
-      <mat-icon>mail</mat-icon>
-    </button>
-    <button mat-icon-button type="button" (click)="openSnackBar()" matTooltip="Podziel sie">
-      <mat-icon>share</mat-icon>
-    </button>
-  </div>
+  <button mat-icon-button matTooltip="Kontakt" (click)="contactSnackBar()">
+    <mat-icon>mail</mat-icon>
+  </button>
+  <button mat-icon-button matTooltip="Share" (click)="shareSnackBar()">
+    <mat-icon>share</mat-icon>
+  </button>
 </mat-toolbar>

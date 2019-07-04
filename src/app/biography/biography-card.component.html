@@ -1,0 +1,27 @@
+<div class="intro-card">
+    <mat-grid-list cols="4" gutterSize="6px" rowHeight="100px">
+        <mat-grid-tile colspan="1" rowspan="3" style="background-color:lightblue">
+            <img src="/assets/images/autor/autor-foto.jpg"/>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="3" rowspan="1" style="background-color:lightpink">
+            <h3 mat-header>Jan Trojan</h3>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="3" rowspan="2" style="background-color:lightgreen">
+            <p>
+                Malarz. Urodził się 1.01.1949 roku w miejscowości Rusiec w Polsce. Studiował na Wydziale Ubioru i Tkaniny w Państwowej Wyższej
+                Szkole Sztuk Plastycznych w Łodzi, gdzie otrzymał dyplom w 1974 roku. Uprawia malarstwo i rysunek inspirowane
+                geometrycznymi aspektami realnych przestrzeni. Zrealizował wiele indywidualnych wystaw malarstwa i rysunku
+                w kraju uczestniczył w licznych wystawach zbiorowych w kraju i za granicą. Otrzymał wiele krajowych nagród
+                i wyróżnień. Jego prace znajdują się w zbiorach publicznych i kolekcjach domowych. Jest profesorem Wydziału
+                Sztuki Uniwersytetu Technologiczno-Humanistycznego im. Kazimierza Pułaskiego w Radomiu. Mieszka w Łodzi.
+            </p>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-divider></mat-divider>
+    <mat-list>
+        <h3 mat-header>Osiągnięcia:</h3>
+        <mat-list-item *ngFor="let item of items">
+            <b>{{item.date}}</b> - <p>{{item.desc}}</p>
+        </mat-list-item>
+    </mat-list>
+</div>

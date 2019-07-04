@@ -8,8 +8,8 @@ import { MatSnackBar } from '@angular/material';
 })
 export class AppComponent {
 
-
-  constructor(public snackBar: MatSnackBar) {}
+  constructor() {
+  }
 
 
 }
