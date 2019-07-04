@@ -6,15 +6,13 @@ import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/l
 
 @Component({
   selector: 'app-creations',
-  templateUrl: './creations.component.html',
-  styleUrls: ['./creations.component.css']
+  templateUrl: './creation.component.html',
+  styleUrls: ['./creation.component.css']
 })
-export class CreationsComponent implements OnInit {
+export class CreationComponent implements OnInit {
   colsNumber: number;
   collections: Collection[];
   creations: Creation[];
-
-  // constructor(private creationService: CreationService){}
 
   constructor(private creationService: CreationService,
               breakPointObserver: BreakpointObserver) {

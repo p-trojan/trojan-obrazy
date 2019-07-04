@@ -1,4 +1,4 @@
-import { CreationDialogComponent } from './creation-dialog.component';
+import { CreationDialogComponent } from '../creation-dialog/creation-dialog.component';
 import { MatSnackBar, MatDialog, MatDialogRef } from '@angular/material';
 import { Creation } from '../_models/Creation';
 import { Component, OnInit, Input, OnChanges } from '@angular/core';

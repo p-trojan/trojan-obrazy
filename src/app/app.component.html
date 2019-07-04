@@ -1,4 +1,4 @@
-<mat-sidenav-container>
+<mat-sidenav-container fullscreen>
   <mat-sidenav #sidenav fixedInViewport="true" mode="over">
     <mat-list>
       <div class="business-card-view">
@@ -36,7 +36,7 @@
       <mat-divider></mat-divider>
       <mat-list-item>
         <a mat-button
-           [routerLink]=" ['./creations'] "
+           [routerLink]=" ['./creation'] "
            routerLinkActive="active"
            [routerLinkActiveOptions]="{exact: true}">
           <span>Twórczość</span>
