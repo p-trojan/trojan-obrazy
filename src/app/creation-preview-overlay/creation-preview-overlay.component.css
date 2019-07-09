@@ -1,0 +1,27 @@
+img {
+  max-width: 700px;
+  max-height: 800px;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+button {
+  position: relative;
+  vertical-align: middle;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlay-content {
+  padding: 1em;
+}
+

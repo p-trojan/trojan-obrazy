@@ -9,6 +9,6 @@ button {
     vertical-align: middle;
 }
 
-.fill-empty {
+.fill-space {
     flex: 1 1 auto;
 }

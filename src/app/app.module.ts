@@ -11,11 +11,13 @@ import { BiographyComponent } from './biography/biography.component';
 import { NoContentComponent } from './no-content/no-content.component';
 import { CreationComponent } from './creation/creation.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { CreationCardComponent } from './creation-card/creation-card.component';
-import { CreationDialogComponent } from './creation-dialog/creation-dialog.component';
 import { BiographyCardComponent } from './biography-card/biography-card.component';
 import { HomeComponent } from './home/home.component';
+import { CreationPreviewOverlayComponent } from './creation-preview-overlay/creation-preview-overlay.component';
+import { OverlayModule } from '@angular/cdk/overlay';
+import { CreationPreviewOverlayService } from './_services/creation-preview-overlay.service';
+import { CreationDialogComponent } from './creation-dialog/creation-dialog.component';
 
 @NgModule({
   imports: [
@@ -23,8 +25,8 @@ import { HomeComponent } from './home/home.component';
     BrowserAnimationsModule,
     HttpClientModule,
     CustomMaterialModule,
-    FlexLayoutModule,
-    AppRoutingModule
+    AppRoutingModule,
+    OverlayModule
   ],
   declarations: [
     AppComponent,
@@ -35,10 +37,11 @@ import { HomeComponent } from './home/home.component';
     CreationComponent,
     CreationCardComponent,
     CreationDialogComponent,
-    HomeComponent
+    HomeComponent,
+    CreationPreviewOverlayComponent
   ],
-  entryComponents: [ CreationDialogComponent ],
-  providers: [],
+  entryComponents: [ CreationPreviewOverlayComponent ],
+  providers: [CreationPreviewOverlayService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

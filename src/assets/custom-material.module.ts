@@ -10,6 +10,7 @@ import {
   MatListModule,
   MatMenuModule,
   MatPaginatorModule,
+  MatProgressSpinnerModule,
   MatSelectModule,
   MatSidenavModule,
   MatSnackBarModule,
@@ -39,7 +40,8 @@ import {
     MatSelectModule,
     MatPaginatorModule,
     MatSortModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatProgressSpinnerModule
   ]
 })
 export class CustomMaterialModule {}
