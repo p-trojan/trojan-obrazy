@@ -1,9 +1,9 @@
 <div class="container">
   <mat-tab-group>
-    <mat-tab *ngFor="let collection of collections; let i=index;" label="{{collection.labelTitle}}">
+    <mat-tab *ngFor="let collection of collections; let collectionId=index;" label="{{collection.labelTitle}}">
       <mat-grid-list [cols]="colsNumber" gutterSize="8px" rowHeight="1:1">
         <mat-grid-tile *ngFor="let content of collection.content; let id = index;" colspan="1" rowspan="1">
-          <creation-card [selectedCreation]="content"></creation-card>
+          <creation-card [selectedCollection]="collection" [selectedCreation]="content"></creation-card>
         </mat-grid-tile>
       </mat-grid-list>
     </mat-tab>

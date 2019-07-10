@@ -1,9 +1,8 @@
 import { CreationDialogComponent } from '../creation-dialog/creation-dialog.component';
-import { MatSnackBar, MatDialog, MatDialogRef } from '@angular/material';
+import { MatSnackBar, MatDialog } from '@angular/material';
 import { Creation } from '../_models/Creation';
-import { Component, OnInit, Input, OnChanges } from '@angular/core';
-import { CreationService } from '../_services/creation.service';
-
+import { Component, OnInit, Input } from '@angular/core';
+import { Collection } from '../_models/Collection';
 
 @Component({
   selector: 'creation-card',
@@ -11,14 +10,15 @@ import { CreationService } from '../_services/creation.service';
   templateUrl: 'creation-card.component.html'
 })
 export class CreationCardComponent implements OnInit {
+  @Input() public selectedCollection: Collection;
   @Input() public selectedCreation: Creation;
-  public creationId: number;
+  private condition: boolean;
 
-  constructor(private snackBar: MatSnackBar, public dialog: MatDialog, private creationService: CreationService) {
+  constructor(private snackBar: MatSnackBar,
+              public dialog: MatDialog) {
   }
 
   public ngOnInit() {
-    // this.creationId = this.selectedCreation.id;
   }
 
   private onClick() {
@@ -27,27 +27,10 @@ export class CreationCardComponent implements OnInit {
     });
   }
 
-  // private onChange(value: number): void {
-  //   this.selectedCreation.id = value;
-  // }
-
-  // private onSelect(): Creation {
-  //   this.creationId = this.selectedCreation.id;
-  //   console.log('from selectedCreation-card.component: ', this.creationId);
-  //   return this.selectedCreation;
-  // }
-
-  private onSelect(id: number): Creation {
-    // this.creationId = this.selectedCreation.id;
-    // console.log('from selectedCreation-card.component: ', this.creationId);
-    // this.selectedCreation.id = id;
-    return this.selectedCreation;
-  }
-
   private openDialog(): void {
     const dialogRef = this.dialog.open(CreationDialogComponent, {
-      width: 'auto',
-      height: 'auto',
+      panelClass: 'custom-dialog-container',
+      backdropClass: 'dark-backdrop',
       position: {
         top: '',
         bottom: '',
@@ -55,18 +38,18 @@ export class CreationCardComponent implements OnInit {
         right: ''
       },
       data: {
-        item: this.onSelect(this.creationId)
+        creations: this.selectedCollection.content,
+        item: this.selectedCreation
       }
     });
+
     const next = dialogRef.componentInstance.onButtonClick
       .subscribe((value) => {
-      this.onSelect(value);
-      console.log(`from dialog (${value})`, this.onSelect(value));
-    });
+        dialogRef.componentInstance.data.item = value;
+      });
+
     dialogRef.afterClosed().subscribe(() => {
-      // console.log('The dialog was closed');
       next.unsubscribe();
     });
   }
-
 }

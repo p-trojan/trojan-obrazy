@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { Creation } from '../_models/Creation';
+import { Component, HostListener, Input, OnInit } from '@angular/core';
 import { Collection } from '../_models/Collection';
 import { CreationService } from '../_services/creation.service';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
@@ -12,7 +11,6 @@ import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/l
 export class CreationComponent implements OnInit {
   colsNumber: number;
   collections: Collection[];
-  creations: Creation[];
 
   constructor(private creationService: CreationService,
               breakPointObserver: BreakpointObserver) {

@@ -1,14 +1,30 @@
+.mat-dialog-content {
+  overflow-y: hidden !important;
+}
+
 img {
-    max-width: fit-content;
-    max-height: 700px;
-    vertical-align: middle;
+  max-width: 700px;
+  max-height: 800px;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
 }
 
 button {
-    position: relative;
-    vertical-align: middle;
+  position: relative;
+  vertical-align: middle;
 }
 
-.fill-empty {
-    flex: 1 1 auto;
+.fill-space {
+  flex: 1 1 auto;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlay-content {
+  padding: 1em;
 }

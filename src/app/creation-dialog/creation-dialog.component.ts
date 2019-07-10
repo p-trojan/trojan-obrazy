@@ -1,14 +1,30 @@
-import { Component, EventEmitter, Inject, OnInit } from '@angular/core';
+import { Component, EventEmitter, HostListener, Inject, OnInit, Output } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
+import { Creation } from '../_models/Creation';
+
+const ARROW_LEFT = "ArrowLeft";
+const ARROW_RIGHT = "ArrowRight";
 
 @Component({
   selector: 'creation-dialog',
   templateUrl: './creation-dialog.component.html',
   styleUrls: ['./creation-dialog.component.css']
 })
+
 export class CreationDialogComponent implements OnInit {
-  public onButtonClick: EventEmitter<number> = new EventEmitter();
-  public creationId: number;
+  @Output() onButtonClick = new EventEmitter<Creation>();
+  loading: boolean = false;
+
+  @HostListener('document:keydown', ['$event']) private handleKeydown(event: KeyboardEvent) {
+    switch (event.key) {
+      case ARROW_LEFT:
+        this.prevItem();
+        break;
+      case ARROW_RIGHT:
+        this.nextItem();
+        break;
+    }
+  }
 
   constructor(
     public dialogRef: MatDialogRef<CreationDialogComponent>,
@@ -16,21 +32,27 @@ export class CreationDialogComponent implements OnInit {
   }
 
   public ngOnInit() {
-    this.creationId = this.data.item.id;
   }
 
-  private onNoClick(): void {
-    this.dialogRef.close();
+  onLoad(event: Event) {
+    this.loading = false;
   }
 
   private prevItem() {
-    console.log("Prev button clicked");
-    this.onButtonClick.emit(this.creationId - 1);
+    let num = this.data.item.id - 1;
+    if (num < 1) {
+      num = this.data.creations.length;
+    }
+    const creation = this.data.creations.find(item => item.id === num);
+    this.onButtonClick.emit(creation);
   }
 
   private nextItem() {
-    console.log("Next button clicked");
-    this.onButtonClick.emit(this.creationId + 1);
+    let num = this.data.item.id + 1;
+    if (num > this.data.creations.length) {
+      num = 1;
+    }
+    const creation = this.data.creations.find(item => item.id === num);
+    this.onButtonClick.emit(creation);
   }
-
 }
