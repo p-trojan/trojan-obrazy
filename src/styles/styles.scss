@@ -16,12 +16,17 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
 .mat-dialog-content {
   margin: 0 !important;
+  //padding: 0 !important;
   max-height: none !important;
 }
 
 .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
   &.dark-backdrop {
     background: #000;
-    opacity: 0.5 !important;
+    opacity: 0.75 !important;
   }
+}
+
+.mat-tab-body.mat-tab-body-active {
+  padding: 16px;
 }

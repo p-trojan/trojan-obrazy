@@ -1,27 +1,50 @@
-<div class="intro-card">
-    <mat-grid-list cols="4" gutterSize="6px" rowHeight="100px">
-        <mat-grid-tile colspan="1" rowspan="3" style="background-color:lightblue">
-            <img src="/assets/images/autor/autor-foto.jpg"/>
-        </mat-grid-tile>
-        <mat-grid-tile colspan="3" rowspan="1" style="background-color:lightpink">
-            <h3 mat-header>Jan Trojan</h3>
-        </mat-grid-tile>
-        <mat-grid-tile colspan="3" rowspan="2" style="background-color:lightgreen">
-            <p>
-                Malarz. Urodził się 1.01.1949 roku w miejscowości Rusiec w Polsce. Studiował na Wydziale Ubioru i Tkaniny w Państwowej Wyższej
-                Szkole Sztuk Plastycznych w Łodzi, gdzie otrzymał dyplom w 1974 roku. Uprawia malarstwo i rysunek inspirowane
-                geometrycznymi aspektami realnych przestrzeni. Zrealizował wiele indywidualnych wystaw malarstwa i rysunku
-                w kraju uczestniczył w licznych wystawach zbiorowych w kraju i za granicą. Otrzymał wiele krajowych nagród
-                i wyróżnień. Jego prace znajdują się w zbiorach publicznych i kolekcjach domowych. Jest profesorem Wydziału
-                Sztuki Uniwersytetu Technologiczno-Humanistycznego im. Kazimierza Pułaskiego w Radomiu. Mieszka w Łodzi.
-            </p>
-        </mat-grid-tile>
-    </mat-grid-list>
+<div class="intro-card-container">
+  <div class="intro-card">
+  <mat-grid-list [cols]="colsNumber" [gutterSize]="gutter" [rowHeight]="rowHeight">
+    <mat-grid-tile [colspan]="imgCols" [rowspan]="imgRows" style="background-color:lightblue">
+      <img src="/assets/images/autor/autor-foto.jpg" layout-fill />
+      <mat-grid-tile-footer>Jan Trojan</mat-grid-tile-footer>
+    </mat-grid-tile>
+<!--    <mat-grid-tile [colspan]="headerCols" [rowspan]="headerRows" style="background-color:lightpink">-->
+<!--      <h3>Jan Trojan</h3>-->
+<!--    </mat-grid-tile>-->
+    <mat-grid-tile [colspan]="paragraphCols" [rowspan]="paragraphRows" style="background-color:lightgreen">
+      <p>
+        Malarz. Urodził się 1.01.1949 roku w miejscowości Rusiec w Polsce. Studiował na Wydziale Ubioru i Tkaniny w
+        Państwowej Wyższej
+        Szkole Sztuk Plastycznych w Łodzi, gdzie otrzymał dyplom w 1974 roku. Uprawia malarstwo i rysunek inspirowane
+        geometrycznymi aspektami realnych przestrzeni. Zrealizował wiele indywidualnych wystaw malarstwa i rysunku
+        w kraju uczestniczył w licznych wystawach zbiorowych w kraju i za granicą. Otrzymał wiele krajowych nagród
+        i wyróżnień. Jego prace znajdują się w zbiorach publicznych i kolekcjach domowych. Jest profesorem Wydziału
+        Sztuki Uniwersytetu Technologiczno-Humanistycznego im. Kazimierza Pułaskiego w Radomiu. Mieszka w Łodzi.
+      </p>
+    </mat-grid-tile>
+  </mat-grid-list>
+  </div>
     <mat-divider></mat-divider>
     <mat-list>
         <h3 mat-header>Osiągnięcia:</h3>
-        <mat-list-item *ngFor="let item of items">
-            <b>{{item.date}}</b> - <p>{{item.desc}}</p>
-        </mat-list-item>
+      <mat-list-item>1977 - Konkurs Malarski "Pejzaż łódzki"- BWA Łódź - wyróżnienie,</mat-list-item><br>
+      <mat-list-item>1979 - Wystawa Okręgu Łódzkiego ZPAP - BWA Łódź - medal ZPAP w dziale malarstwa,</mat-list-item><br>
+      <mat-list-item>1979 - Malarstwo i Fotografika "Łódź - portret miasta" - BWA Łódź - wyróżnienie,</mat-list-item><br>
+      <mat-list-item>1980 - X Festiwal Polskiego Malarstwa Współczesnego - Zamek Książąt Pomorskich Szczecin - nagroda "Kuriera Szczecińskiego",</mat-list-item><br>
+      <mat-list-item>1981 - IX Ogólnopolski Konkurs Malarski im. J. Spychalskiego - BWA Poznań - dwa wyróżnienia,</mat-list-item><br>
+      <mat-list-item>1981 - Malarstwo i Fotografika "Łódź - portret miasta" - BWA Łódź - nagroda Muzeum Historii Miasta Łodzi,</mat-list-item><br>
+      <mat-list-item>1982 - XXXVI Ogólnopolski Salon Zimowy Plastyki - Muzeum Okręgowe Radom - Nagroda Główna im. Jacka Malczewskiego,</mat-list-item><br>
+      <mat-list-item>1983 - X Ogólnopolski Konkurs Malarski im. J. Spychalskiego - BWA Poznań - wyróżnienie,</mat-list-item><br>
+      <mat-list-item>1984 - XI Ogólnopolski Konkurs Malarski im. J. Spychalskiego - BWA Poznań - II nagroda,</mat-list-item><br>
+      <mat-list-item>1997 - I Ogólnopolski Konkurs Malarski "Triennale z martwa naturą" - BWA Sieradz - Grand Prix,</mat-list-item><br>
+      <mat-list-item>1998 - Wystawa malarstwa "Obraz 98" organizowana przez Fundację Polska-Japonia im. Miyauchi - Stara Kordegarda Łazienki Królewskie Warszawa - III nagroda,</mat-list-item><br>
+      <mat-list-item>2001 - Wystawa "Muzyka w malarstwie" - Galeria "Obok" Tychy - wyróżnienie honorowe,</mat-list-item><br>
+      <mat-list-item>2003 - III Ogólnopolski Konkurs Malarski "Triennale z martwą naturą" BWA Sieradz - Grand Prix,</mat-list-item><br>
+      <mat-list-item>2004 - Srebrny Krzyż Zasługi,</mat-list-item><br>
+      <mat-list-item>2005 - I Ogólnopolskie Biennale Obrazu "Artefakt" - Tower Building Łódź - II nagroda,</mat-list-item><br>
+      <mat-list-item>2007 - I Międzynarodowe Biennale Obrazu Quadro-Art, Muzeum Historii Miasta, Łódź - Nagroda Sztuki Użytkowej,</mat-list-item><br>
+      <mat-list-item>2009 - II Międzynarodowe Biennale Obrazu Quadro-Art, Galeria ZPAP "Na piętrze", Łódź - Nagroda Prezesa ZPAP,</mat-list-item><br>
+      <mat-list-item>2010 - Nagroda Rektora indywidualna III stopnia za osiągnięcia artystyczne,</mat-list-item><br>
+      <mat-list-item>2011 - VII Triennale Polskiego Rysunku Współczesnego - Lubaczów 2011 - (Grand Prix),</mat-list-item><br>
+      <mat-list-item>2011 - Złoty Krzyż Zasługi,</mat-list-item><br>
+      <mat-list-item>2011 - 42. Salon Zimowy. Ciąg dalszy. - Galeria Pentagon, Radom - Nagroda Firmy Intersol,</mat-list-item><br>
+      <mat-list-item>2012 - Medal Komisji Edukacji Narodowej</mat-list-item><br>
     </mat-list>
 </div>

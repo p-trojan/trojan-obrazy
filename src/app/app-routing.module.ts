@@ -11,7 +11,6 @@ const routes: Routes = [
   { path: 'home',  component: HomeComponent },
   { path: 'biography', component: BiographyComponent },
   { path: 'creation', component: CreationComponent},
-  { path: 'selectedCreation/:id', component: CreationDialogComponent},
   {path: '**', component: NoContentComponent }
 ]
 

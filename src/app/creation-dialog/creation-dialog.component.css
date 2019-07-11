@@ -28,3 +28,7 @@ button {
 .overlay-content {
   padding: 1em;
 }
+
+.white-stripe {
+  background-color: white;
+}

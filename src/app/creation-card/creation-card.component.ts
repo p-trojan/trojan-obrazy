@@ -3,6 +3,7 @@ import { MatSnackBar, MatDialog } from '@angular/material';
 import { Creation } from '../_models/Creation';
 import { Component, OnInit, Input } from '@angular/core';
 import { Collection } from '../_models/Collection';
+import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 
 @Component({
   selector: 'creation-card',
@@ -10,13 +11,13 @@ import { Collection } from '../_models/Collection';
   templateUrl: 'creation-card.component.html'
 })
 export class CreationCardComponent implements OnInit {
+  @Input() public dialogEnabled: boolean;
   @Input() public selectedCollection: Collection;
   @Input() public selectedCreation: Creation;
   private condition: boolean;
 
   constructor(private snackBar: MatSnackBar,
-              public dialog: MatDialog) {
-  }
+              public dialog: MatDialog) {}
 
   public ngOnInit() {
   }

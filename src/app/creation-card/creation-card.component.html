@@ -1,4 +1,4 @@
-<div (mouseover)="condition === true" (mouseleave)="condition === false" class="inner-container" (click)="openDialog()">
+<div (mouseover)="condition === true" (mouseleave)="condition === false" class="inner-container" (click)="dialogEnabled && openDialog()">
   <img [src]="selectedCreation.image">
   <div *ngIf="selectedCreation">
     <mat-card [hidden]="!condition" class="image-overlay">
