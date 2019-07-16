@@ -42,23 +42,23 @@ export class CreationComponent implements OnInit, AfterViewChecked {
         switch (res.matches) {
           case breakPointObserver.isMatched(Breakpoints.XSmall):
             this.enablePopupDialog = false;
-            this.colsNumber = 1;
-            this.gutter = 16;
+            this.colsNumber = 2;
+            this.gutter = 4;
             break;
           case breakPointObserver.isMatched(Breakpoints.Small):
             this.enablePopupDialog = false;
             this.colsNumber = 2;
-            this.gutter = 16;
+            this.gutter = 4;
             break;
           case breakPointObserver.isMatched(Breakpoints.Medium):
             this.enablePopupDialog = true;
             this.colsNumber = 3;
-            this.gutter = 24;
+            this.gutter = 8;
             break;
           case breakPointObserver.isMatched(Breakpoints.Large):
             this.enablePopupDialog = true;
-            this.colsNumber = 3;
-            this.gutter = 24;
+            this.colsNumber = 4;
+            this.gutter = 8;
             break;
         }
       });

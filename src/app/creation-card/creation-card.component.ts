@@ -3,7 +3,6 @@ import { MatSnackBar, MatDialog } from '@angular/material';
 import { Creation } from '../_models/Creation';
 import { Component, OnInit, Input } from '@angular/core';
 import { Collection } from '../_models/Collection';
-import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 
 @Component({
   selector: 'creation-card',

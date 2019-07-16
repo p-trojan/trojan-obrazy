@@ -2,7 +2,7 @@
   <div class="sprinner-wrapper" *ngIf="loading">
     <mat-spinner></mat-spinner>
   </div>
-  <mat-card>
+  <div>
     <button mat-fab (click)="prevItem()">
       <mat-icon>chevron_left</mat-icon>
     </button>
@@ -11,10 +11,9 @@
       <mat-icon>chevron_right</mat-icon>
     </button>
     <div>
-      <mat-card-title>{{data.item['title']}}</mat-card-title>
-      <mat-card-subtitle>{{data.item['description'] || "Brak opisu"}},
+      <p style="">{{data.item['title']}} - {{data.item['description'] || "Brak opisu"}},
         {{data.item['dimensions'] || "Brak wymiarów"}},
-        {{data.item['date'] || "Rok powstania nieznany"}}</mat-card-subtitle>
+        {{data.item['date'] || "Rok powstania nieznany"}}</p>
     </div>
-  </mat-card>
+  </div>
 </div>

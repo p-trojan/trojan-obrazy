@@ -10,8 +10,6 @@ export class BiographyCardComponent {
   colsNumber: number;
   imgCols: number;
   imgRows: number;
-  headerCols: number;
-  headerRows: number;
   paragraphCols: number;
   paragraphRows: number;
   gutter: number;
@@ -29,47 +27,39 @@ export class BiographyCardComponent {
         switch (res.matches) {
           case breakPointObserver.isMatched(Breakpoints.XSmall):
             this.colsNumber = 1;
-            this.rowHeight = "200px";
+            this.rowHeight = "225px";
             this.imgCols = 1;
             this.imgRows = 1;
-            this.headerCols = 1;
-            this.headerRows = 1;
             this.paragraphCols = 1;
             this.paragraphRows = 2;
-            this.gutter = 16;
+            this.gutter = 4;
             break;
           case breakPointObserver.isMatched(Breakpoints.Small):
-            this.colsNumber = 2;
-            this.rowHeight = "2:1";
+            this.colsNumber = 4;
+            this.rowHeight = "300px";
             this.imgCols = 1;
             this.imgRows = 1;
-            this.headerCols = 1;
-            this.headerRows = 1;
-            this.paragraphCols = 2;
+            this.paragraphCols = 3;
             this.paragraphRows = 1;
-            this.gutter = 16;
+            this.gutter = 4;
             break;
           case breakPointObserver.isMatched(Breakpoints.Medium):
-            this.colsNumber = 3;
+            this.colsNumber = 4;
             this.rowHeight = "1:1";
             this.imgCols = 1;
             this.imgRows = 1;
-            this.headerCols = 2;
-            this.headerRows = 1;
-            this.paragraphCols = 2;
+            this.paragraphCols = 3;
             this.paragraphRows = 1;
-            this.gutter = 24;
+            this.gutter = 8;
             break;
           case breakPointObserver.isMatched(Breakpoints.Large):
             this.colsNumber = 4;
             this.rowHeight = "1:1";
             this.imgCols = 1;
             this.imgRows = 1;
-            this.headerCols = 1;
-            this.headerRows = 1;
             this.paragraphCols = 3;
             this.paragraphRows = 1;
-            this.gutter = 24;
+            this.gutter = 8;
             break;
         }
       });

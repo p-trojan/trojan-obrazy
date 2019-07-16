@@ -1,8 +1,44 @@
 .intro-card-container {
     max-width: 1024px;
     margin: 0 auto;
-    background-color:aliceblue;
+    background-color: whitesmoke;
 }
 
 .intro-card {
+}
+
+.photo-container {
+  position: relative;
+  width: 200px;
+  text-align: center
+}
+
+.photo-caption {
+  font-size: 90%;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.bio-paragraph {
+  text-align: justify;
+  text-indent: 1em;
+  line-height: 1.3em;
+  padding-left: 16px;
+  padding-right: 24px;
+}
+
+.mat-list#bio-achievements {
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: justify;
+}
+
+.mat-list-item {
+  height: auto !important;
+  padding-bottom: 8px;
 }

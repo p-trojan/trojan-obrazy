@@ -9,6 +9,11 @@ $app-warn:    mat-palette($mat-amber, 600);
 $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 @include angular-material-theme($app-theme);
 
+
+.mat-tab-group {
+  background-color: whitesmoke;
+}
+
 .custom-dialog-container .mat-dialog-container {
   padding: 0 !important;
   background: none;
@@ -16,17 +21,25 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
 .mat-dialog-content {
   margin: 0 !important;
-  //padding: 0 !important;
+  padding: 0 !important;
   max-height: none !important;
+}
+
+.mat-dialog-container {
+  box-shadow: none !important;
 }
 
 .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
   &.dark-backdrop {
-    background: #000;
+    background: #666666;
     opacity: 0.75 !important;
   }
 }
 
 .mat-tab-body.mat-tab-body-active {
   padding: 16px;
+}
+
+.mat-grid-tile#bio-tile .mat-figure {
+  align-items: unset !important;
 }
