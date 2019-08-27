@@ -57,7 +57,7 @@ export class CreationComponent implements OnInit, AfterViewChecked {
             break;
           case breakPointObserver.isMatched(Breakpoints.Large):
             this.enablePopupDialog = true;
-            this.colsNumber = 4;
+            this.colsNumber = 3;
             this.gutter = 8;
             break;
         }

@@ -1,19 +1,19 @@
-<div class="fill-space" mat-dialog-content>
+<div class="fill-space container">
   <div class="sprinner-wrapper" *ngIf="loading">
     <mat-spinner></mat-spinner>
   </div>
-  <div>
-    <button mat-fab (click)="prevItem()">
-      <mat-icon>chevron_left</mat-icon>
-    </button>
-    <img mat-card-image (load)="onLoad($event)" [style.opacity]="loading ? 0 : 1" [src]="data.item.image"/>
-    <button mat-fab (click)="nextItem()">
-      <mat-icon>chevron_right</mat-icon>
-    </button>
-    <div>
-      <p style="">{{data.item['title']}} - {{data.item['description'] || "Brak opisu"}},
-        {{data.item['dimensions'] || "Brak wymiarów"}},
-        {{data.item['date'] || "Rok powstania nieznany"}}</p>
+  <div class="inner-container">
+    <div class="left-container" (click)="prevItem()">
+      <i class="material-icons">chevron_left</i>
     </div>
+    <div class="right-container" (click)="nextItem()">
+      <i class="material-icons">chevron_right</i>
+    </div>
+    <img (load)="onLoad($event)" [style.opacity]="loading ? 0 : 1" [src]="data.item.image"/>
+  </div>
+  <div>
+    <p>{{data.item['title']}} - {{data.item['description'] || "Brak opisu"}},
+      {{data.item['dimensions'] || "Brak wymiarów"}},
+      {{data.item['date'] || "Rok powstania nieznany"}}</p>
   </div>
 </div>

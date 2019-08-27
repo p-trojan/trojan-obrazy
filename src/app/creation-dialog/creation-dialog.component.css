@@ -10,14 +10,16 @@ img {
   vertical-align: middle;
 }
 
-button {
-  position: relative;
-  vertical-align: middle;
-}
-
 p {
+  margin: 0;
+  padding: 12px;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
+}
+
+i {
+  color: whitesmoke;
+  font-size: 36px;
 }
 
 .fill-space {
@@ -30,10 +32,55 @@ p {
   align-items: center;
 }
 
-.overlay-content {
-  padding: 1em;
+.container {
+  display: inline-block;
 }
 
-.white-stripe {
-  background-color: white;
+.inner-container {
+  position: relative;
+}
+
+.inner-container img {
+  display: block;
+}
+
+.inner-container div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 20%;
+  /*background-color: rgba(0, 0, 0, 0.7);*/
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.left-container {
+  left: 0;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+}
+
+.right-container {
+  right: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+}
+
+.left-container i {
+  position: absolute;
+  top: 50%;
+  left: 24px;
+}
+
+.right-container i {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+}
+
+.inner-container:hover .right-container:hover {
+  opacity: 1;
+}
+
+.inner-container:hover .left-container:hover {
+  opacity: 1;
 }
