@@ -27,11 +27,16 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
 .mat-dialog-container {
   box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.mat-card {
+  border-radius: 0 !important;
 }
 
 .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
   &.dark-backdrop {
-    background: #666666;
+    background: #404040;
     opacity: 0.75 !important;
   }
 }

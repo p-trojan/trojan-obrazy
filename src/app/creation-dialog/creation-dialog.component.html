@@ -4,10 +4,10 @@
   </div>
   <div class="inner-container">
     <div class="left-container" (click)="prevItem()">
-      <i class="material-icons">chevron_left</i>
+      <i class="material-icons circle">chevron_left</i>
     </div>
     <div class="right-container" (click)="nextItem()">
-      <i class="material-icons">chevron_right</i>
+      <i class="material-icons circle">chevron_right</i>
     </div>
     <img (load)="onLoad($event)" [style.opacity]="loading ? 0 : 1" [src]="data.item.image"/>
   </div>

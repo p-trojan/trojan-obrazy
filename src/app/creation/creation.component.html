@@ -1,4 +1,4 @@
-<div class="container">
+<section class="container">
   <mat-tab-group mat-align-tabs="center" animationDuration="1000ms" [selectedIndex]="tabSelected"  (swipeleft)="swipe($event.type)" (swiperight)="swipe($event.type)">
     <mat-tab *ngFor="let collection of collections; let collectionId=index;" label="{{collection.labelTitle}}">
       <mat-grid-list [cols]="colsNumber" [gutterSize]="gutter" rowHeight="1:1">
@@ -9,4 +9,4 @@
       </mat-grid-list>
     </mat-tab>
   </mat-tab-group>
-</div>
+</section>

@@ -3,11 +3,12 @@
 }
 
 img {
-  max-width: 700px;
-  max-height: 800px;
+  max-width: 100%;
+  max-height: 900px;
   width: auto;
   height: auto;
   vertical-align: middle;
+  display: block;
 }
 
 p {
@@ -22,6 +23,14 @@ i {
   font-size: 36px;
 }
 
+.circle {
+  height: 36px;
+  width: 36px;
+  background-color: #333333;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .fill-space {
   flex: 1 1 auto;
 }
@@ -34,6 +43,7 @@ i {
 
 .container {
   display: inline-block;
+  border: whitesmoke solid 2px;
 }
 
 .inner-container {
@@ -57,12 +67,14 @@ i {
 
 .left-container {
   left: 0;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  cursor: default;
 }
 
 .right-container {
   right: 0;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  cursor: default;
 }
 
 .left-container i {
