@@ -12,7 +12,6 @@ import { NoContentComponent } from './no-content/no-content.component';
 import { CreationComponent } from './creation/creation.component';
 import { CreationCardComponent } from './creation-card/creation-card.component';
 import { CreationDialogComponent } from './creation-dialog/creation-dialog.component';
-import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
@@ -30,8 +29,7 @@ import { HomeComponent } from './home/home.component';
     NoContentComponent,
     CreationComponent,
     CreationCardComponent,
-    CreationDialogComponent,
-    HomeComponent
+    CreationDialogComponent
   ],
   entryComponents: [CreationDialogComponent],
   providers: [{
