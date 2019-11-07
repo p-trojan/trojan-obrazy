@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { log } from 'util';
 import { Collection } from '../_models/Collection';
 import { Observable } from 'rxjs';
 
@@ -11,7 +10,6 @@ export class CreationService {
   private dataUrl = 'assets/data/data.json';
 
   constructor(private http: HttpClient) {
-    log(`getCreations from service: ${this.getCollectionArray()}`);
   }
 
   public getCollectionArray(): Observable<Collection[]> {

@@ -14,15 +14,8 @@ export class AppToolbarComponent implements OnInit {
   public ngOnInit() {
   }
   public contactSnackBar() {
-    this.snackBar.open('This function is not available yet!', '=(', {
+    this.snackBar.open('Poczta dostępna wkrótce!', null, {
       duration: 2000,
     });
   }
-
-  public shareSnackBar() {
-    this.snackBar.open('Sharing is not available yet!', '=(', {
-      duration: 2000,
-    });
-  }
-
 }

@@ -38,7 +38,7 @@ export class CreationDialogComponent implements OnInit {
     this.loading = false;
   }
 
-  private prevItem() {
+  public prevItem() {
     let num = this.data.item.id - 1;
     if (num < 1) {
       num = this.data.creations.length;
@@ -47,7 +47,7 @@ export class CreationDialogComponent implements OnInit {
     this.onButtonClick.emit(creation);
   }
 
-  private nextItem() {
+  public nextItem() {
     let num = this.data.item.id + 1;
     if (num > this.data.creations.length) {
       num = 1;

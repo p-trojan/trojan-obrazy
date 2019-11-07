@@ -70,29 +70,23 @@ export class CreationComponent implements OnInit, AfterViewChecked {
 
   ngAfterViewChecked(): void {
     this.tabNum = this.tabs.length;
-
-    // console.log(this.tabs)
-    // console.log(this.tabs.length)
   }
 
   getCollection(): void {
     this.creationService.getCollectionArray()
-      .subscribe(data => {
-        this.collections = data;
+      .subscribe(json => {
+        this.collections = json["data"];
       });
   }
 
   swipe(eType){
-    console.log(`eType :: ${eType}`);
+    // console.log(`eType :: ${eType}`);
     if(eType === this.SWIPE_ACTION.LEFT && this.tabSelected > 0){
-      // console.log("movin left")
       this.tabSelected--;
     }
     else if(eType === this.SWIPE_ACTION.RIGHT && this.tabSelected + 1 < this.tabNum ){
-      // console.log("movin right")
       this.tabSelected++;
     }
-    // console.log(this.tabSelected)
   }
 }
 

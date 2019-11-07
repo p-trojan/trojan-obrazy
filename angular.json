@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "trojanobrazy-rev8": {
+    "trojan-obrazy": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/trojanobrazy-rev8",
+            "outputPath": "dist/trojan-obrazy",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "trojanobrazy-rev8:build"
+            "browserTarget": "trojan-obrazy:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "trojanobrazy-rev8:build:production"
+              "browserTarget": "trojan-obrazy:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "trojanobrazy-rev8:build"
+            "browserTarget": "trojan-obrazy:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "trojanobrazy-rev8-e2e": {
+    "trojan-obrazy-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "trojanobrazy-rev8:serve"
+            "devServerTarget": "trojan-obrazy:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "trojanobrazy-rev8:serve:production"
+              "devServerTarget": "trojan-obrazy:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "trojanobrazy-rev8"
+  "defaultProject": "trojan-obrazy"
 }

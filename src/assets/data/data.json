@@ -1,580 +1,584 @@
-[
-  {
-    "labelTitle": "Malarstwo 1976-1997",
-    "groupId": 1,
-    "content": [
-      {
-        "id": 1,
-        "image": "assets/images/malarstwo76/Painting1.jpg",
-        "title": "Tło",
-        "date": "1978",
-        "description": "olej, płótno",
-        "dimensions": "100x120cm"
-      },
-      {
-        "id": 2,
-        "image": "assets/images/malarstwo76/Painting2.jpg",
-        "title": "Niebieska fabryka",
-        "date": "1979",
-        "description": "olej, płótno",
-        "dimensions": "40x40cm"
-      },
-      {
-        "id": 3,
-        "image": "assets/images/malarstwo76/Painting3.jpg",
-        "title": "W bramie",
-        "date": "1979",
-        "description": "olej, płótno",
-        "dimensions": "50x40cm"
-      },
-      {
-        "id": 4,
-        "image": "assets/images/malarstwo76/Painting4.jpg",
-        "title": "Wolana",
-        "date": "1979",
-        "description": "olej, płótno",
-        "dimensions": "40x40cm"
-      },
-      {
-        "id": 5,
-        "image": "assets/images/malarstwo76/Painting5.jpg",
-        "title": "Bez tytułu",
-        "date": "1980",
-        "description": "olej, płótno",
-        "dimensions": "100x100cm"
-      },
-      {
-        "id": 6,
-        "image": "assets/images/malarstwo76/Painting6.jpg",
-        "title": "Bez tytułu",
-        "date": "1982",
-        "description": "olej, płótno",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 7,
-        "image": "assets/images/malarstwo76/Painting7.jpg",
-        "title": "Świety, Świety, Świety...",
-        "date": "1984",
-        "description": "olej, płótno",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 8,
-        "image": "assets/images/malarstwo76/Painting8.jpg",
-        "title": "Pokój 107",
-        "date": "1984",
-        "description": "olej, płótno",
-        "dimensions": "65x81cm"
-      },
-      {
-        "id": 9,
-        "image": "assets/images/malarstwo76/Painting9.jpg",
-        "title": "Bez tytułu",
-        "date": "1986",
-        "description": "olej, płótno",
-        "dimensions": "65x81cm"
-      },
-      {
-        "id": 10,
-        "image": "assets/images/malarstwo76/Painting10.jpg",
-        "title": "Stodoła",
-        "date": "1986",
-        "description": "olej, płótno",
-        "dimensions": "65x81cm"
-      },
-      {
-        "id": 11,
-        "image": "assets/images/malarstwo76/Painting11.jpg",
-        "title": "Stodoła I",
-        "date": "1986",
-        "description": "olej, płótno",
-        "dimensions": "65x81cm"
-      },
-      {
-        "id": 12,
-        "image": "assets/images/malarstwo76/Painting12.jpg",
-        "title": "Szczęście",
-        "date": "1986",
-        "description": "olej, płótno",
-        "dimensions": "65x100cm"
-      },
-      {
-        "id": 13,
-        "image": "assets/images/malarstwo76/Painting13.jpg",
-        "title": "Drzewo",
-        "date": "1987",
-        "description": "olej, płótno",
-        "dimensions": "65x50cm"
-      },
-      {
-        "id": 14,
-        "image": "assets/images/malarstwo76/Painting14.jpg",
-        "title": "Mieszkaniec",
-        "date": "1987",
-        "description": "olej, płótno",
-        "dimensions": "56x60cm"
-      },
-      {
-        "id": 15,
-        "image": "assets/images/malarstwo76/Painting15.jpg",
-        "title": "Martwa natura z gwoździami",
-        "date": "1991",
-        "description": "olej, płótno",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 16,
-        "image": "assets/images/malarstwo76/Painting16.jpg",
-        "title": "Niebo w Załęczu",
-        "date": "1996",
-        "description": "olej, płótno",
-        "dimensions": "50x65cm"
-      },
-      {
-        "id": 17,
-        "image": "assets/images/malarstwo76/Painting17.jpg",
-        "title": "Nokturn",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      }
-    ]
-  },
-  {
-    "labelTitle": "Malarstwo 1997-2013",
-    "groupId": 2,
-    "content": [
-      {
-        "id": 1,
-        "image": "assets/images/malarstwo97/Painting1.jpg",
-        "title": "Kąt",
-        "date": "1997",
-        "description": "olej, płótno",
-        "dimensions": "100x81cm"
-      },
-      {
-        "id": 2,
-        "image": "assets/images/malarstwo97/Painting2.jpg",
-        "title": "Postludium jesienne",
-        "date": "2001",
-        "description": "olej, płótno",
-        "dimensions": "76x96cm"
-      },
-      {
-        "id": 3,
-        "image": "assets/images/malarstwo97/Painting3.jpg",
-        "title": "Pasaż",
-        "date": "2002",
-        "description": "olej, płótno",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 4,
-        "image": "assets/images/malarstwo97/Painting4.jpg",
-        "title": "Wstęga",
-        "date": "2002",
-        "description": "olej, płótno",
-        "dimensions": "96x76cm"
-      },
-      {
-        "id": 5,
-        "image": "assets/images/malarstwo97/Painting5.jpg",
-        "title": "Biała linia",
-        "date": "2002",
-        "description": "olej, płótno",
-        "dimensions": "76x96cm"
-      },
-      {
-        "id": 6,
-        "image": "assets/images/malarstwo97/Painting6.jpg",
-        "title": "Blue Space",
-        "date": "2003",
-        "description": "olej, płyta HDF",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 7,
-        "image": "assets/images/malarstwo97/Painting7.jpg",
-        "title": "Trójkąt równoboczny",
-        "date": "2003",
-        "description": "olej, płyta HDF",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 8,
-        "image": "assets/images/malarstwo97/Painting8.jpg",
-        "title": "Trzy poziomy",
-        "date": "2004",
-        "description": "olej, płyta HDF",
-        "dimensions": "76x96cm"
-      },
-      {
-        "id": 9,
-        "image": "assets/images/malarstwo97/Painting9.jpg",
-        "title": "Green Space",
-        "date": "2004",
-        "description": "olej, płyta HDF",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 10,
-        "image": "assets/images/malarstwo97/Painting10.jpg",
-        "title": "Drabina i schody",
-        "date": "2006",
-        "description": "olej, płótno",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 11,
-        "image": "assets/images/malarstwo97/Painting11.jpg",
-        "title": "Jedno dla dwojga",
-        "date": "2007",
-        "description": "olej, płótno",
-        "dimensions": "100x100cm"
-      },
-      {
-        "id": 12,
-        "image": "assets/images/malarstwo97/Painting12.jpg",
-        "title": "Dwie podłogi",
-        "date": "2007",
-        "description": "olej, płótno",
-        "dimensions": "115x70cm"
-      },
-      {
-        "id": 13,
-        "image": "assets/images/malarstwo97/Painting13.jpg",
-        "title": "Pół i pół",
-        "date": "2007",
-        "description": "olej, płótno",
-        "dimensions": "81x100cm"
-      },
-      {
-        "id": 14,
-        "image": "assets/images/malarstwo97/Painting14.jpg",
-        "title": "Dwa krzesła",
-        "date": "2008",
-        "description": "olej, płótno",
-        "dimensions": "100x81cm"
-      },
-      {
-        "id": 15,
-        "image": "assets/images/malarstwo97/Painting15.jpg",
-        "title": "Jabłko niebieskie",
-        "date": "2008",
-        "description": "olej, płótno",
-        "dimensions": "100x81cm"
-      },
-      {
-        "id": 16,
-        "image": "assets/images/malarstwo97/Painting16.jpg",
-        "title": "Jedno i to samo",
-        "date": "2008",
-        "description": "olej, płyta HDF",
-        "dimensions": "100x70cm"
-      },
-      {
-        "id": 17,
-        "image": "assets/images/malarstwo97/Painting17.jpg",
-        "title": "Podłoga",
-        "date": "2008",
-        "description": "olej, płótno",
-        "dimensions": "70x100cm"
-      },
-      {
-        "id": 18,
-        "image": "assets/images/malarstwo97/Painting18.jpg",
-        "title": "Duże i małe krzesla",
-        "date": "2008",
-        "description": "olej, płyta HDF",
-        "dimensions": "70x100cm"
-      },
-      {
-        "id": 19,
-        "image": "assets/images/malarstwo97/Painting19.jpg",
-        "title": "Otwarte krzesło w ms2",
-        "date": "2010",
-        "description": "olej, płyta HDF",
-        "dimensions": "100x81cm"
-      },
-      {
-        "id": 20,
-        "image": "assets/images/malarstwo97/Painting20.jpg",
-        "title": "Rzeźba kameralna w ms2",
-        "date": "2010",
-        "description": "olej, płyta HDF",
-        "dimensions": "100x81cm"
-      },
-      {
-        "id": 21,
-        "image": "assets/images/malarstwo97/Painting21.jpg",
-        "title": "Schody w ms2",
-        "date": "2011",
-        "description": "olej, płyta HDF",
-        "dimensions": "100x70cm"
-      },
-      {
-        "id": 22,
-        "image": "assets/images/malarstwo97/Painting22.jpg",
-        "title": "Podloga w ms2",
-        "date": "2011",
-        "description": "olej, płyta HDF",
-        "dimensions": "100x70cm"
-      },
-      {
-        "id": 23,
-        "image": "assets/images/malarstwo97/Painting23.jpg",
-        "title": "Jesień w Tate Modern",
-        "date": "2012",
-        "description": "olej, płyta HDF",
-        "dimensions": "81x131cm"
-      },
-      {
-        "id": 24,
-        "image": "assets/images/malarstwo97/Painting24.jpg",
-        "title": "Jodełka płaszczowa 3a",
-        "date": "2013",
-        "description": "olej, płyta HDF",
-        "dimensions": "50x70cm"
-      },
-      {
-        "id": 25,
-        "image": "assets/images/malarstwo97/Painting25.jpg",
-        "title": "Jodełka płaszczowa krzesłowa b",
-        "date": "2013",
-        "description": "olej, płyta HDF",
-        "dimensions": "70x50cm"
-      },
-      {
-        "id": 26,
-        "image": "assets/images/malarstwo97/Painting26.jpg",
-        "title": "Jodełka płaszczowa krzesłowa a",
-        "date": "2013",
-        "description": "olej, płyta HDF",
-        "dimensions": "70x50cm"
-      },
-      {
-        "id": 27,
-        "image": "assets/images/malarstwo97/Graphic1.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 28,
-        "image": "assets/images/malarstwo97/Graphic2.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 29,
-        "image": "assets/images/malarstwo97/Graphic3.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 30,
-        "image": "assets/images/malarstwo97/Graphic4.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 31,
-        "image": "assets/images/malarstwo97/Graphic5.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 32,
-        "image": "assets/images/malarstwo97/Graphic6.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 33,
-        "image": "assets/images/malarstwo97/Graphic7.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 34,
-        "image": "assets/images/malarstwo97/Graphic8.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 35,
-        "image": "assets/images/malarstwo97/Graphic9.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 36,
-        "image": "assets/images/malarstwo97/Graphic10.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 37,
-        "image": "assets/images/malarstwo97/Graphic11.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 38,
-        "image": "assets/images/malarstwo97/Graphic12.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 39,
-        "image": "assets/images/malarstwo97/Graphic13.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 40,
-        "image": "assets/images/malarstwo97/Graphic14.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 41,
-        "image": "assets/images/malarstwo97/Graphic15.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 42,
-        "image": "assets/images/malarstwo97/Graphic16.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 43,
-        "image": "assets/images/malarstwo97/Graphic17.jpg",
-        "title": "Bez tytułu",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      }
-    ]
-  },
-  {
-    "labelTitle": "Rysunki",
-    "groupId": 3,
-    "content": [
-      {
-        "id": 1,
-        "image": "assets/images/rysunek/Drawing1.jpg",
-        "title": "Rysunek 1",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 2,
-        "image": "assets/images/rysunek/Drawing2.jpg",
-        "title": "Rysunek 2",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 3,
-        "image": "assets/images/rysunek/Drawing3.jpg",
-        "title": "Rysunek 3",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 4,
-        "image": "assets/images/rysunek/Drawing4.jpg",
-        "title": "Rysunek 4",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 5,
-        "image": "assets/images/rysunek/Drawing5.jpg",
-        "title": "Rysunek 5",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 6,
-        "image": "assets/images/rysunek/Drawing6.jpg",
-        "title": "Rysunek 6",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 7,
-        "image": "assets/images/rysunek/Drawing7.jpg",
-        "title": "Rysunek 7",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 8,
-        "image": "assets/images/rysunek/Drawing8.jpg",
-        "title": "Rysunek 8",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 9,
-        "image": "assets/images/rysunek/Drawing9.jpg",
-        "title": "Rysunek 9",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      },
-      {
-        "id": 10,
-        "image": "assets/images/rysunek/Drawing10.jpg",
-        "title": "Rysunek 10",
-        "date": "",
-        "description": "",
-        "dimensions": ""
-      }
-    ]
-  }
-]
+{
+  "data":
+  [
+    {
+      "labelTitle": "Malarstwo 1976-1997",
+      "groupId": 1,
+      "content": [
+        {
+          "id": 1,
+          "image": "assets/images/malarstwo76/Painting1.jpg",
+          "title": "Tło",
+          "date": "1978",
+          "description": "olej, płótno",
+          "dimensions": "100x120cm"
+        },
+        {
+          "id": 2,
+          "image": "assets/images/malarstwo76/Painting2.jpg",
+          "title": "Niebieska fabryka",
+          "date": "1979",
+          "description": "olej, płótno",
+          "dimensions": "40x40cm"
+        },
+        {
+          "id": 3,
+          "image": "assets/images/malarstwo76/Painting3.jpg",
+          "title": "W bramie",
+          "date": "1979",
+          "description": "olej, płótno",
+          "dimensions": "50x40cm"
+        },
+        {
+          "id": 4,
+          "image": "assets/images/malarstwo76/Painting4.jpg",
+          "title": "Wolana",
+          "date": "1979",
+          "description": "olej, płótno",
+          "dimensions": "40x40cm"
+        },
+        {
+          "id": 5,
+          "image": "assets/images/malarstwo76/Painting5.jpg",
+          "title": "Bez tytułu",
+          "date": "1980",
+          "description": "olej, płótno",
+          "dimensions": "100x100cm"
+        },
+        {
+          "id": 6,
+          "image": "assets/images/malarstwo76/Painting6.jpg",
+          "title": "Bez tytułu",
+          "date": "1982",
+          "description": "olej, płótno",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 7,
+          "image": "assets/images/malarstwo76/Painting7.jpg",
+          "title": "Świety, Świety, Świety...",
+          "date": "1984",
+          "description": "olej, płótno",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 8,
+          "image": "assets/images/malarstwo76/Painting8.jpg",
+          "title": "Pokój 107",
+          "date": "1984",
+          "description": "olej, płótno",
+          "dimensions": "65x81cm"
+        },
+        {
+          "id": 9,
+          "image": "assets/images/malarstwo76/Painting9.jpg",
+          "title": "Bez tytułu",
+          "date": "1986",
+          "description": "olej, płótno",
+          "dimensions": "65x81cm"
+        },
+        {
+          "id": 10,
+          "image": "assets/images/malarstwo76/Painting10.jpg",
+          "title": "Stodoła",
+          "date": "1986",
+          "description": "olej, płótno",
+          "dimensions": "65x81cm"
+        },
+        {
+          "id": 11,
+          "image": "assets/images/malarstwo76/Painting11.jpg",
+          "title": "Stodoła I",
+          "date": "1986",
+          "description": "olej, płótno",
+          "dimensions": "65x81cm"
+        },
+        {
+          "id": 12,
+          "image": "assets/images/malarstwo76/Painting12.jpg",
+          "title": "Szczęście",
+          "date": "1986",
+          "description": "olej, płótno",
+          "dimensions": "65x100cm"
+        },
+        {
+          "id": 13,
+          "image": "assets/images/malarstwo76/Painting13.jpg",
+          "title": "Drzewo",
+          "date": "1987",
+          "description": "olej, płótno",
+          "dimensions": "65x50cm"
+        },
+        {
+          "id": 14,
+          "image": "assets/images/malarstwo76/Painting14.jpg",
+          "title": "Mieszkaniec",
+          "date": "1987",
+          "description": "olej, płótno",
+          "dimensions": "56x60cm"
+        },
+        {
+          "id": 15,
+          "image": "assets/images/malarstwo76/Painting15.jpg",
+          "title": "Martwa natura z gwoździami",
+          "date": "1991",
+          "description": "olej, płótno",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 16,
+          "image": "assets/images/malarstwo76/Painting16.jpg",
+          "title": "Niebo w Załęczu",
+          "date": "1996",
+          "description": "olej, płótno",
+          "dimensions": "50x65cm"
+        },
+        {
+          "id": 17,
+          "image": "assets/images/malarstwo76/Painting17.jpg",
+          "title": "Nokturn",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        }
+      ]
+    },
+    {
+      "labelTitle": "Malarstwo 1997-2013",
+      "groupId": 2,
+      "content": [
+        {
+          "id": 1,
+          "image": "assets/images/malarstwo97/Painting1.jpg",
+          "title": "Kąt",
+          "date": "1997",
+          "description": "olej, płótno",
+          "dimensions": "100x81cm"
+        },
+        {
+          "id": 2,
+          "image": "assets/images/malarstwo97/Painting2.jpg",
+          "title": "Postludium jesienne",
+          "date": "2001",
+          "description": "olej, płótno",
+          "dimensions": "76x96cm"
+        },
+        {
+          "id": 3,
+          "image": "assets/images/malarstwo97/Painting3.jpg",
+          "title": "Pasaż",
+          "date": "2002",
+          "description": "olej, płótno",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 4,
+          "image": "assets/images/malarstwo97/Painting4.jpg",
+          "title": "Wstęga",
+          "date": "2002",
+          "description": "olej, płótno",
+          "dimensions": "96x76cm"
+        },
+        {
+          "id": 5,
+          "image": "assets/images/malarstwo97/Painting5.jpg",
+          "title": "Biała linia",
+          "date": "2002",
+          "description": "olej, płótno",
+          "dimensions": "76x96cm"
+        },
+        {
+          "id": 6,
+          "image": "assets/images/malarstwo97/Painting6.jpg",
+          "title": "Blue Space",
+          "date": "2003",
+          "description": "olej, płyta HDF",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 7,
+          "image": "assets/images/malarstwo97/Painting7.jpg",
+          "title": "Trójkąt równoboczny",
+          "date": "2003",
+          "description": "olej, płyta HDF",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 8,
+          "image": "assets/images/malarstwo97/Painting8.jpg",
+          "title": "Trzy poziomy",
+          "date": "2004",
+          "description": "olej, płyta HDF",
+          "dimensions": "76x96cm"
+        },
+        {
+          "id": 9,
+          "image": "assets/images/malarstwo97/Painting9.jpg",
+          "title": "Green Space",
+          "date": "2004",
+          "description": "olej, płyta HDF",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 10,
+          "image": "assets/images/malarstwo97/Painting10.jpg",
+          "title": "Drabina i schody",
+          "date": "2006",
+          "description": "olej, płótno",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 11,
+          "image": "assets/images/malarstwo97/Painting11.jpg",
+          "title": "Jedno dla dwojga",
+          "date": "2007",
+          "description": "olej, płótno",
+          "dimensions": "100x100cm"
+        },
+        {
+          "id": 12,
+          "image": "assets/images/malarstwo97/Painting12.jpg",
+          "title": "Dwie podłogi",
+          "date": "2007",
+          "description": "olej, płótno",
+          "dimensions": "115x70cm"
+        },
+        {
+          "id": 13,
+          "image": "assets/images/malarstwo97/Painting13.jpg",
+          "title": "Pół i pół",
+          "date": "2007",
+          "description": "olej, płótno",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 14,
+          "image": "assets/images/malarstwo97/Painting14.jpg",
+          "title": "Dwa krzesła",
+          "date": "2008",
+          "description": "olej, płótno",
+          "dimensions": "100x81cm"
+        },
+        {
+          "id": 15,
+          "image": "assets/images/malarstwo97/Painting15.jpg",
+          "title": "Jabłko niebieskie",
+          "date": "2008",
+          "description": "olej, płótno",
+          "dimensions": "100x81cm"
+        },
+        {
+          "id": 16,
+          "image": "assets/images/malarstwo97/Painting16.jpg",
+          "title": "Jedno i to samo",
+          "date": "2008",
+          "description": "olej, płyta HDF",
+          "dimensions": "100x70cm"
+        },
+        {
+          "id": 17,
+          "image": "assets/images/malarstwo97/Painting17.jpg",
+          "title": "Podłoga",
+          "date": "2008",
+          "description": "olej, płótno",
+          "dimensions": "70x100cm"
+        },
+        {
+          "id": 18,
+          "image": "assets/images/malarstwo97/Painting18.jpg",
+          "title": "Duże i małe krzesla",
+          "date": "2008",
+          "description": "olej, płyta HDF",
+          "dimensions": "70x100cm"
+        },
+        {
+          "id": 19,
+          "image": "assets/images/malarstwo97/Painting19.jpg",
+          "title": "Otwarte krzesło w ms2",
+          "date": "2010",
+          "description": "olej, płyta HDF",
+          "dimensions": "100x81cm"
+        },
+        {
+          "id": 20,
+          "image": "assets/images/malarstwo97/Painting20.jpg",
+          "title": "Rzeźba kameralna w ms2",
+          "date": "2010",
+          "description": "olej, płyta HDF",
+          "dimensions": "100x81cm"
+        },
+        {
+          "id": 21,
+          "image": "assets/images/malarstwo97/Painting21.jpg",
+          "title": "Schody w ms2",
+          "date": "2011",
+          "description": "olej, płyta HDF",
+          "dimensions": "100x70cm"
+        },
+        {
+          "id": 22,
+          "image": "assets/images/malarstwo97/Painting22.jpg",
+          "title": "Podloga w ms2",
+          "date": "2011",
+          "description": "olej, płyta HDF",
+          "dimensions": "100x70cm"
+        },
+        {
+          "id": 23,
+          "image": "assets/images/malarstwo97/Painting23.jpg",
+          "title": "Jesień w Tate Modern",
+          "date": "2012",
+          "description": "olej, płyta HDF",
+          "dimensions": "81x131cm"
+        },
+        {
+          "id": 24,
+          "image": "assets/images/malarstwo97/Painting24.jpg",
+          "title": "Jodełka płaszczowa 3a",
+          "date": "2013",
+          "description": "olej, płyta HDF",
+          "dimensions": "50x70cm"
+        },
+        {
+          "id": 25,
+          "image": "assets/images/malarstwo97/Painting25.jpg",
+          "title": "Jodełka płaszczowa krzesłowa b",
+          "date": "2013",
+          "description": "olej, płyta HDF",
+          "dimensions": "70x50cm"
+        },
+        {
+          "id": 26,
+          "image": "assets/images/malarstwo97/Painting26.jpg",
+          "title": "Jodełka płaszczowa krzesłowa a",
+          "date": "2013",
+          "description": "olej, płyta HDF",
+          "dimensions": "70x50cm"
+        },
+        {
+          "id": 27,
+          "image": "assets/images/malarstwo97/Graphic1.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 28,
+          "image": "assets/images/malarstwo97/Graphic2.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 29,
+          "image": "assets/images/malarstwo97/Graphic3.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 30,
+          "image": "assets/images/malarstwo97/Graphic4.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 31,
+          "image": "assets/images/malarstwo97/Graphic5.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 32,
+          "image": "assets/images/malarstwo97/Graphic6.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 33,
+          "image": "assets/images/malarstwo97/Graphic7.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 34,
+          "image": "assets/images/malarstwo97/Graphic8.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 35,
+          "image": "assets/images/malarstwo97/Graphic9.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 36,
+          "image": "assets/images/malarstwo97/Graphic10.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 37,
+          "image": "assets/images/malarstwo97/Graphic11.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 38,
+          "image": "assets/images/malarstwo97/Graphic12.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 39,
+          "image": "assets/images/malarstwo97/Graphic13.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 40,
+          "image": "assets/images/malarstwo97/Graphic14.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 41,
+          "image": "assets/images/malarstwo97/Graphic15.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 42,
+          "image": "assets/images/malarstwo97/Graphic16.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 43,
+          "image": "assets/images/malarstwo97/Graphic17.jpg",
+          "title": "Bez tytułu",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        }
+      ]
+    },
+    {
+      "labelTitle": "Rysunki",
+      "groupId": 3,
+      "content": [
+        {
+          "id": 1,
+          "image": "assets/images/rysunek/Drawing1.jpg",
+          "title": "Rysunek 1",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 2,
+          "image": "assets/images/rysunek/Drawing2.jpg",
+          "title": "Rysunek 2",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 3,
+          "image": "assets/images/rysunek/Drawing3.jpg",
+          "title": "Rysunek 3",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 4,
+          "image": "assets/images/rysunek/Drawing4.jpg",
+          "title": "Rysunek 4",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 5,
+          "image": "assets/images/rysunek/Drawing5.jpg",
+          "title": "Rysunek 5",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 6,
+          "image": "assets/images/rysunek/Drawing6.jpg",
+          "title": "Rysunek 6",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 7,
+          "image": "assets/images/rysunek/Drawing7.jpg",
+          "title": "Rysunek 7",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 8,
+          "image": "assets/images/rysunek/Drawing8.jpg",
+          "title": "Rysunek 8",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 9,
+          "image": "assets/images/rysunek/Drawing9.jpg",
+          "title": "Rysunek 9",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        },
+        {
+          "id": 10,
+          "image": "assets/images/rysunek/Drawing10.jpg",
+          "title": "Rysunek 10",
+          "date": "",
+          "description": "",
+          "dimensions": ""
+        }
+      ]
+    }
+  ]
+}
+

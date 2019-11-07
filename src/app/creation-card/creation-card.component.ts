@@ -13,7 +13,7 @@ export class CreationCardComponent implements OnInit {
   @Input() public dialogEnabled: boolean;
   @Input() public selectedCollection: Collection;
   @Input() public selectedCreation: Creation;
-  private condition: boolean;
+  public condition: boolean;
 
   constructor(private snackBar: MatSnackBar,
               public dialog: MatDialog) {}
@@ -27,7 +27,7 @@ export class CreationCardComponent implements OnInit {
     });
   }
 
-  private openDialog(): void {
+  public openDialog(): void {
     const dialogRef = this.dialog.open(CreationDialogComponent, {
       panelClass: 'custom-dialog-container',
       backdropClass: 'dark-backdrop',
