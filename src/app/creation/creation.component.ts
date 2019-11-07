@@ -12,6 +12,7 @@ import { Collection } from '../_models/Collection';
 import { CreationService } from '../_services/creation.service';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { MatTab, MatTabGroup } from '@angular/material';
+import { log } from 'util';
 
 @Component({
   selector: 'app-creations',
@@ -33,24 +34,15 @@ export class CreationComponent implements OnInit, AfterViewChecked {
               breakPointObserver: BreakpointObserver) {
     breakPointObserver
       .observe([
-        Breakpoints.XSmall,
-        Breakpoints.Small,
+        Breakpoints.XLarge,
+        Breakpoints.Large,
         Breakpoints.Medium,
-        Breakpoints.Large
+        Breakpoints.Small,
+        Breakpoints.XSmall
       ])
-      .subscribe((res: BreakpointState) => {
-        switch (res.matches) {
-          case breakPointObserver.isMatched(Breakpoints.XSmall):
-            this.enablePopupDialog = false;
-            this.colsNumber = 2;
-            this.gutter = 4;
-            break;
-          case breakPointObserver.isMatched(Breakpoints.Small):
-            this.enablePopupDialog = false;
-            this.colsNumber = 2;
-            this.gutter = 4;
-            break;
-          case breakPointObserver.isMatched(Breakpoints.Medium):
+      .subscribe((breakpointState: BreakpointState) => {
+        switch (breakpointState.matches) {
+          case breakPointObserver.isMatched(Breakpoints.XLarge):
             this.enablePopupDialog = true;
             this.colsNumber = 3;
             this.gutter = 8;
@@ -59,6 +51,21 @@ export class CreationComponent implements OnInit, AfterViewChecked {
             this.enablePopupDialog = true;
             this.colsNumber = 3;
             this.gutter = 8;
+            break;
+          case breakPointObserver.isMatched(Breakpoints.Medium):
+            this.enablePopupDialog = true;
+            this.colsNumber = 3;
+            this.gutter = 8;
+            break;
+          case breakPointObserver.isMatched(Breakpoints.Small):
+            this.enablePopupDialog = false;
+            this.colsNumber = 2;
+            this.gutter = 4;
+            break;
+          case breakPointObserver.isMatched(Breakpoints.XSmall):
+            this.enablePopupDialog = false;
+            this.colsNumber = 2;
+            this.gutter = 4;
             break;
         }
       });

@@ -18,32 +18,15 @@ export class BiographyCardComponent {
   constructor(breakPointObserver: BreakpointObserver) {
     breakPointObserver
       .observe([
-        Breakpoints.XSmall,
-        Breakpoints.Small,
+        Breakpoints.XLarge,
+        Breakpoints.Large,
         Breakpoints.Medium,
-        Breakpoints.Large
+        Breakpoints.Small,
+        Breakpoints.XSmall
       ])
-      .subscribe((res: BreakpointState) => {
-        switch (res.matches) {
-          case breakPointObserver.isMatched(Breakpoints.XSmall):
-            this.colsNumber = 1;
-            this.rowHeight = "225px";
-            this.imgCols = 1;
-            this.imgRows = 1;
-            this.paragraphCols = 1;
-            this.paragraphRows = 2;
-            this.gutter = 4;
-            break;
-          case breakPointObserver.isMatched(Breakpoints.Small):
-            this.colsNumber = 4;
-            this.rowHeight = "300px";
-            this.imgCols = 1;
-            this.imgRows = 1;
-            this.paragraphCols = 3;
-            this.paragraphRows = 1;
-            this.gutter = 4;
-            break;
-          case breakPointObserver.isMatched(Breakpoints.Medium):
+      .subscribe((breakpointState: BreakpointState) => {
+        switch (breakpointState.matches) {
+          case breakPointObserver.isMatched(Breakpoints.XLarge):
             this.colsNumber = 4;
             this.rowHeight = "1:1";
             this.imgCols = 1;
@@ -60,6 +43,33 @@ export class BiographyCardComponent {
             this.paragraphCols = 3;
             this.paragraphRows = 1;
             this.gutter = 8;
+            break;
+          case breakPointObserver.isMatched(Breakpoints.Medium):
+            this.colsNumber = 4;
+            this.rowHeight = "1:1";
+            this.imgCols = 1;
+            this.imgRows = 1;
+            this.paragraphCols = 3;
+            this.paragraphRows = 1;
+            this.gutter = 8;
+            break;
+          case breakPointObserver.isMatched(Breakpoints.Small):
+            this.colsNumber = 4;
+            this.rowHeight = "300px";
+            this.imgCols = 1;
+            this.imgRows = 1;
+            this.paragraphCols = 3;
+            this.paragraphRows = 1;
+            this.gutter = 4;
+            break;
+          case breakPointObserver.isMatched(Breakpoints.XSmall):
+            this.colsNumber = 1;
+            this.rowHeight = "225px";
+            this.imgCols = 1;
+            this.imgRows = 1;
+            this.paragraphCols = 1;
+            this.paragraphRows = 2;
+            this.gutter = 4;
             break;
         }
       });
