@@ -12,8 +12,9 @@
     <img (load)="onLoad($event)" [style.opacity]="loading ? 0 : 1" [src]="data.item.image"/>
   </div>
   <div>
-    <p>{{data.item['title']}} - {{data.item['description'] || "Brak opisu"}},
-      {{data.item['dimensions'] || "Brak wymiarów"}},
-      {{data.item['date'] || "Rok powstania nieznany"}}</p>
+    <p>{{data.item['title']}}, {{data.item['date'] || "Rok powstania nieznany"}},
+      {{data.item['description'] || "Brak opisu"}},
+      {{data.item['dimensions'] || "Brak wymiarów"}}
+      </p>
   </div>
 </div>

@@ -4,10 +4,11 @@
   </button>
   <span class="fill-space"></span>
   <div>
-    <a [routerLink]="['/home']"><span class="white-text name">Jan Trojan - obrazy, rysunki, twórczość</span></a>
+    <a [routerLink]="['/home']"><span class="white-text name"><strong>JAN TROJAN</strong></span><span class="white-text title">&#9675; malarstwo &#9675; rysunek &#9675; grafika cyfrowa</span></a>
   </div>
   <span class="fill-space"></span>
   <button mat-icon-button matTooltip="Kontakt" (click)="contactSnackBar()">
     <mat-icon>mail</mat-icon>
   </button>
 </mat-toolbar>
+<mat-progress-bar mode="determinate" value="40" color="accent" *ngIf="isLoading"></mat-progress-bar>

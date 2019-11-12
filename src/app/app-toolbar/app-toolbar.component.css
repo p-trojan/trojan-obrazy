@@ -8,11 +8,13 @@
 }
 
 .white-text {
+  font-size: 36px;
   color: white;
+  margin: 10px;
+  float: left;
+  letter-spacing: 2px;
 }
 
 .name {
-  margin: 10px;
-  padding-top: 10px;
-  float: left;
+  letter-spacing: 4px;
 }
