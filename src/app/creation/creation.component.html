@@ -1,6 +1,6 @@
 <section class="container">
   <mat-tab-group mat-align-tabs="center" animationDuration="1000ms" [selectedIndex]="tabSelected"  (swipeleft)="swipe($event.type)" (swiperight)="swipe($event.type)">
-    <mat-tab *ngFor="let collection of collections; let collectionId=index;" label="{{collection.labelTitle}}">
+    <mat-tab *ngFor="let collection of collections; let collectionId=index;" label="{{collection.labelTitle}}" [disabled]="collection.content.length === 0">
       <mat-grid-list [cols]="colsNumber" [gutterSize]="gutter" rowHeight="1:1">
         <mat-grid-tile *ngFor="let content of collection.content; let id = index;" colspan="1" rowspan="1">
           <creation-card [selectedCollection]="collection" [selectedCreation]="content"

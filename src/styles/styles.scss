@@ -48,3 +48,13 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 .mat-grid-tile#bio-tile .mat-figure {
   align-items: unset !important;
 }
+
+::selection {
+  background: #d50000;
+  color: white;
+}
+
+::-moz-selection {
+  background: #d50000;
+  color: white;
+}

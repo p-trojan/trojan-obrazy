@@ -8,7 +8,7 @@ import { MatSnackBar } from '@angular/material';
 })
 export class AppToolbarComponent implements OnInit, AfterViewInit {
   @Input() public sidenav;
-  isLoading: boolean;
+  isLoading: boolean = false;
 
   constructor(public snackBar: MatSnackBar) {
   }
@@ -21,8 +21,8 @@ export class AppToolbarComponent implements OnInit, AfterViewInit {
   }
 
   public contactSnackBar() {
-    this.snackBar.open('Poczta dostępna wkrótce!', null, {
-      duration: 2000,
+    this.snackBar.open('Formularz kontaktowy dostępny wkrótce!', null, {
+      duration: 2000
     });
   }
 }

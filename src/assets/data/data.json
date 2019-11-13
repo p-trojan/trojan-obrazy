@@ -1,6 +1,5 @@
 {
-  "data":
-  [
+  "data": [
     {
       "labelTitle": "Malarstwo 1976-1997",
       "groupId": 1,
@@ -358,74 +357,74 @@
         {
           "id": 27,
           "image": "assets/images/malarstwo97/Graphic1.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "Adaptacja",
+          "date": "2002",
+          "description": "olej na płótnie",
+          "dimensions": "76x96cm"
         },
         {
           "id": 28,
           "image": "assets/images/malarstwo97/Graphic2.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "Schody",
+          "date": "2001",
+          "description": "olej na płótnie",
+          "dimensions": "96x76cm"
         },
         {
           "id": 29,
           "image": "assets/images/malarstwo97/Graphic3.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "Sekcja",
+          "date": "2002",
+          "description": "olej na płótnie",
+          "dimensions": "76x96cm"
         },
         {
           "id": 30,
           "image": "assets/images/malarstwo97/Graphic4.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "Drzwi",
+          "date": "2000",
+          "description": "olej na płótnie",
+          "dimensions": "100x81cm"
         },
         {
           "id": 31,
           "image": "assets/images/malarstwo97/Graphic5.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "RGB Space",
+          "date": "2003",
+          "description": "olej na płótnie",
+          "dimensions": "100x81cm"
         },
         {
           "id": 32,
           "image": "assets/images/malarstwo97/Graphic6.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "Posadzka",
+          "date": "2003",
+          "description": "olej na płycie MDF",
+          "dimensions": "81x100cm"
         },
         {
           "id": 33,
           "image": "assets/images/malarstwo97/Graphic7.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "In Space",
+          "date": "2003",
+          "description": "olej na płycie MDF",
+          "dimensions": "81x100cm"
         },
         {
           "id": 34,
           "image": "assets/images/malarstwo97/Graphic8.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "Koniunkcja",
+          "date": "2003",
+          "description": "olej na płycie MDF",
+          "dimensions": "81x100cm"
         },
         {
           "id": 35,
           "image": "assets/images/malarstwo97/Graphic9.jpg",
-          "title": "Bez tytułu",
-          "date": "",
-          "description": "",
-          "dimensions": ""
+          "title": "Niebo i ziemia",
+          "date": "2004",
+          "description": "olej na płycie MDF",
+          "dimensions": "81x100cm"
         },
         {
           "id": 36,
@@ -576,6 +575,265 @@
           "date": "",
           "description": "",
           "dimensions": ""
+        }
+      ]
+    },
+    {
+      "labelTitle": "Grafika cyfrowa",
+      "groupId": 4,
+      "content": []
+    },
+    {
+      "labelTitle": "Malarstwo kameralne",
+      "groupId": 5,
+      "content": [
+        {
+          "id": 1,
+          "image": "assets/images/kameralne/1.jpg",
+          "title": "Obraz kameralny w ms2",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "40x30cm"
+        },
+        {
+          "id": 2,
+          "image": "assets/images/kameralne/2.jpg",
+          "title": "Zielone niebo",
+          "date": "2008",
+          "description": "olej, płótno",
+          "dimensions": "24x18cm"
+        },
+        {
+          "id": 3,
+          "image": "assets/images/kameralne/3.jpg",
+          "title": "M 500",
+          "date": "2007",
+          "description": "olej, płótno",
+          "dimensions": "41x33cm"
+        },
+        {
+          "id": 4,
+          "image": "assets/images/kameralne/4.jpg",
+          "title": "Łódka gotycka",
+          "date": "2007",
+          "description": "olej, płótno",
+          "dimensions": "46x38cm"
+        },
+        {
+          "id": 5,
+          "image": "assets/images/kameralne/5.jpg",
+          "title": "Piramidka",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "33x41cm"
+        },
+        {
+          "id": 6,
+          "image": "assets/images/kameralne/6.jpg",
+          "title": "Listek",
+          "date": "2006",
+          "description": "olej, płótno",
+          "dimensions": "30x40cm"
+        },
+        {
+          "id": 7,
+          "image": "assets/images/kameralne/7.jpg",
+          "title": "Zielone jabłko",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "27x33cm"
+        },
+        {
+          "id": 8,
+          "image": "assets/images/kameralne/8.jpg",
+          "title": "Dwie piramidki",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "41x33cm"
+        },
+        {
+          "id": 9,
+          "image": "assets/images/kameralne/9.jpg",
+          "title": "Przystań",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "33x41cm"
+        },
+        {
+          "id": 10,
+          "image": "assets/images/kameralne/10.jpg",
+          "title": "Draperia C",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "41x33cm"
+        },
+        {
+          "id": 11,
+          "image": "assets/images/kameralne/11.jpg",
+          "title": "Strzelec",
+          "date": "2011",
+          "description": "olej, płótno",
+          "dimensions": "33x24cm"
+        },
+        {
+          "id": 12,
+          "image": "assets/images/kameralne/12.jpg",
+          "title": "Ryby",
+          "date": "2011",
+          "description": "olej, płótno",
+          "dimensions": "33x24cm"
+        },
+        {
+          "id": 13,
+          "image": "assets/images/kameralne/13.jpg",
+          "title": "Byk",
+          "date": "2011",
+          "description": "olej, płótno",
+          "dimensions": "33x24cm"
+        },
+        {
+          "id": 14,
+          "image": "assets/images/kameralne/14.jpg",
+          "title": "Trójkąt",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "33x27cm"
+        },
+        {
+          "id": 15,
+          "image": "assets/images/kameralne/15.jpg",
+          "title": "Draperia A",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "24x27cm"
+        },
+        {
+          "id": 16,
+          "image": "assets/images/kameralne/16.jpg",
+          "title": "Draperia B",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "24x27cm"
+        },
+        {
+          "id": 17,
+          "image": "assets/images/kameralne/17.jpg",
+          "title": "Trzy piramidki",
+          "date": "2007",
+          "description": "olej, płótno",
+          "dimensions": "33x41cm"
+        },
+        {
+          "id": 18,
+          "image": "assets/images/kameralne/18.jpg",
+          "title": "Draperia pomarańczowa",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "33x46cm"
+        },
+        {
+          "id": 19,
+          "image": "assets/images/kameralne/19.jpg",
+          "title": "Prostokąty",
+          "date": "2009",
+          "description": "olej, płótno",
+          "dimensions": "41x33cm"
+        },
+        {
+          "id": 20,
+          "image": "assets/images/kameralne/20.jpg",
+          "title": "Dróżka i strużka",
+          "date": "2006",
+          "description": "olej, płótno",
+          "dimensions": "55x73cm"
+        },
+        {
+          "id": 21,
+          "image": "assets/images/kameralne/21.jpg",
+          "title": "Pejzaż z niebem",
+          "date": "2006",
+          "description": "olej, płótno",
+          "dimensions": "55x73cm"
+        },
+        {
+          "id": 22,
+          "image": "assets/images/kameralne/22.jpg",
+          "title": "Ścieżka",
+          "date": "1998",
+          "description": "olej, płótno",
+          "dimensions": "33x41cm"
+        },
+        {
+          "id": 23,
+          "image": "assets/images/kameralne/23.jpg",
+          "title": "Torebki",
+          "date": "2008",
+          "description": "olej, płyta HDF",
+          "dimensions": "50x70cm"
+        },
+        {
+          "id": 24,
+          "image": "assets/images/kameralne/24.jpg",
+          "title": "Martwa natura z jabłkiem",
+          "date": "2012",
+          "description": "olej, płótno na płycie HDF",
+          "dimensions": "33x41cm"
+        },
+        {
+          "id": 25,
+          "image": "assets/images/kameralne/25.jpg",
+          "title": "Martwa natura z niebem",
+          "date": "2003",
+          "description": "olej, płótno",
+          "dimensions": "27x33cm"
+        },
+        {
+          "id": 26,
+          "image": "assets/images/kameralne/26.jpg",
+          "title": "Martwa natura z gałązką",
+          "date": "2015",
+          "description": "olej, płótno",
+          "dimensions": "41x33cm"
+        },
+        {
+          "id": 27,
+          "image": "assets/images/kameralne/27.jpg",
+          "title": "Martwa natura bez jabłka",
+          "date": "2007",
+          "description": "olej, płótno",
+          "dimensions": "81x100cm"
+        },
+        {
+          "id": 28,
+          "image": "assets/images/kameralne/28.jpg",
+          "title": "Piramidki malejące",
+          "date": "2010",
+          "description": "olej, płótno",
+          "dimensions": "41x33cm"
+        },
+        {
+          "id": 29,
+          "image": "assets/images/kameralne/29.jpg",
+          "title": "Piramidki rosnące",
+          "date": "2010",
+          "description": "olej, płótno",
+          "dimensions": "41x33cm"
+        },
+        {
+          "id": 30,
+          "image": "assets/images/kameralne/30.jpg",
+          "title": "Martwa natura z draperiami",
+          "date": "2011",
+          "description": "olej, płótno",
+          "dimensions": "55.5x46.5cm"
+        },
+        {
+          "id": 31,
+          "image": "assets/images/kameralne/31.jpg",
+          "title": "Śnię czereśnie",
+          "date": "2007",
+          "description": "olej, płyta HDF",
+          "dimensions": "70x100cm"
         }
       ]
     }
